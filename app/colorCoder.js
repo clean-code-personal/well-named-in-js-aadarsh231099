@@ -1,5 +1,6 @@
 let ColorPair = require('./color_pair');
 let conversion = require('./conversion');
+const print_manual = require('./manual');
 
 function test(){
     pairNumber = 4;
@@ -35,3 +36,4 @@ function test(){
     console.assert(pairNumber==6);
 }
 test();
+print_manual();
